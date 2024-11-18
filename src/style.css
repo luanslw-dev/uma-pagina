@@ -63,7 +63,7 @@ div.flex{
     justify-content: space-between;
 }
 div.logo img{
-    width: 350px;
+    width: 450px;
     height: 200px;
 }
 
@@ -419,7 +419,11 @@ div.conteudo h4{
     margin-bottom: 5px;
   
  }
-
+ .comunicacao  li i{
+   text-decoration: none;
+   color: black;
+  
+ }
 
 .redes_sociais {
     display: flex;
