@@ -1,0 +1,464 @@
+@charset "UTF-8";
+/*
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: "Android";
+    src: url('../desafio010/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}*/
+
+button.bnt {
+    
+        padding: 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width:200px;
+        padding: 15px 0;
+        z-index: 1000; /* Para garantir que o menu fique acima do conteúdo */
+        background-color: var(--cor5);
+        padding: 10px;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.233);
+        margin-bottom: 10px;
+      
+       
+    
+}
+button.bnt a{
+    color: white;
+    text-decoration: none;
+    
+    
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+
+    --cor0: #014040;
+    --cor1: #04BFBF;
+    --cor2: #04BFAD;
+    --cor3: #B6F2EC;
+    --cor4: #F2F2F2;
+    --cor5: #295C57;
+
+   --fonte-padrao: Arial, verdana, helvetica, san-seif;
+    --fonte-destaque: "Bebas Neue", sans-serif;
+    
+}
+header{
+    padding: 40px 4%;
+    color: white;
+}
+
+div.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.logo img{
+    width: 350px;
+    height: 200px;
+}
+
+
+body {
+    background-color: #c5ebd6;
+    font-family: var(--fonte-padrao);
+}
+
+div.container_inicio{
+    
+}
+
+div.container_inicio ul li{
+    list-style: none;
+}
+
+div.container_inicio h3{
+   background-image: linear-gradient(to left, var(--cor5),var(--cor4));
+   color: var(--cor0);
+   text-transform: capitalize;
+}
+
+div.container_inicio p{
+    font-size: 1.2em;
+}
+
+header {
+
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor5));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header>h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.26);
+}
+
+header>p {
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 500px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.26);
+}
+/*
+nav {
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.233);
+    margin-bottom: 10px;
+}
+
+nav>a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav>a:hover {
+    background-color: var(--cor4);
+    color: var(--cor0);
+}*/
+/* Estilo do menu fixo */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 1000; /* Para garantir que o menu fique acima do conteúdo */
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.233);
+    margin-bottom: 10px;
+}
+nav.navbar >a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin-right: 30px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+   
+    
+}
+
+.navbar  a:hover {
+    background-color: var(--cor3);
+    color: var(--cor0);
+    transition: .8s;
+    
+}
+
+/* Estilo das seções */
+.section {
+    height: 100vh;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 30px;
+}
+
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    padding: 2px 6px;
+}
+
+div.container {
+display: flex;   
+}
+
+div.container > img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+div.container img,p#lado{
+   text-align: center;
+   margin-left: 5px;
+}
+
+div.container1 {
+    display: flex;  
+    }
+    
+    div.container1 > img{
+        width: 300px;
+        margin-bottom: 20px;
+    
+    }
+
+ 
+    
+    div.container1 img,p#lado{
+       text-align: center;
+       margin-left: 5px;
+    }
+    
+    div.contratar h1{
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+
+
+main h1 {
+    color: var(--cor5);
+   /* font-family: var(--fonte-android);*/
+}
+
+main h2 {
+   /* font-family: var(--fonte-android);*/
+   font-family: var(--fonte-destaque);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+
+}
+
+aside {
+    padding: 10px 10px 0px 0px;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411);
+}
+
+aside>h3 {
+    font-family: var(--fonte-destaque);
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+  padding: 1em;
+ 
+}
+
+#footer{
+    margin-top: 1.1em;
+    
+}
+
+#footer span{
+    font-weight: bold;
+    color: var(--cor4);
+    
+}
+#footer_cima span{
+    font-weight: bold;
+    color: var(--cor4);
+    text-transform: capitalize;
+    
+}
+
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+   
+}
+footer a:hover{
+
+    color: var(--cor1);
+}
+
+
+
+
+
+
+
+
+   div.conteudo:hover{
+    background-color: var(--cor3);
+    transform: scale(1.1);
+    color: var(--cor0);
+    box-shadow: 2px 2px 2px 5px rgba(14, 13, 13, 0.733);
+    border: none;
+    margin: 20px;
+}
+.conteudo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Configurações existentes */
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .conteudo {
+    flex-basis: 24%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    /* Configurações existentes */
+    background-color: var(--cor5);
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    color: white;
+  }
+  
+div.conteudo h4{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+}
+  
+  /* Configurações adicionais para responsividade */
+  @media (max-width: 669px) {
+    .conteudo-container {
+      flex-direction: column;
+      width: 300px;
+    }
+    article div.conteudo-container {
+        
+    }
+  }
+
+
+ article > h1{
+    text-align: center;
+    padding: 10px;
+    text-transform:capitalize;
+ }
+
+ .comunicacao  {
+    list-style: none;
+   padding: 10px;
+
+ }
+ .comunicacao  li{
+    margin-bottom: 5px;
+  
+ }
+
+
+.redes_sociais {
+    display: flex;
+    gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+  list-style: none;
+
+}
+.redes_sociais a i {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
+    transition: 0.3s;
+    justify-content: center;
+ 
+}
+.redes_sociais a i:hover {
+    color: var(--cor1);
+    border: 1px solid var(--cor5);
+    transform: scale(1.3);
+}
+
+@media screen and (max-width:1054px){
+    nav{
+        
+    }
+    .container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .container1{
+        flex-direction: column;
+        align-items: center;
+    }
+  
+}
+
+div.contratar >h1{
+    background: linear-gradient(to right,var(--cor5), var(--cor1)), var(--cor1);
+    padding: 10px;
+    width: 60vw;
+    color: white;
+    border-radius: 30px;
+    margin-left: 50px;
+    text-transform: capitalize;
+}

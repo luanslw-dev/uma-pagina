@@ -1,0 +1,28 @@
+
+   
+   
+   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+const scrollTopBtn = document.getElementById('scrollTopBtn');
+window.onscroll = function() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        scrollTopBtn.style.display = "block"; // Exibe o botão se rolar 200px para baixo
+    } else {
+        scrollTopBtn.style.display = "none"; // Oculta o botão quando estiver no topo
+    }
+};
+// Função para rolar até o topo quando clicar no botão
+scrollTopBtn.addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Rolagem suave até o topo
+    });
+});
