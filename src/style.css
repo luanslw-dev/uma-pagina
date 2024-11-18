@@ -54,7 +54,7 @@ button.bnt a{
 }
 header{
     padding: 40px 4%;
-    color: white;
+    color: var();
 }
 
 div.flex{
@@ -92,8 +92,8 @@ div.container_inicio p{
 }
 
 header {
-
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor5));
+background-color: white;
+   /* background-image: linear-gradient(to bottom, var(--cor1), var(--cor5));*/
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -390,6 +390,15 @@ div.conteudo h4{
       width: 300px;
     }
     article div.conteudo-container {
+        
+    }
+    div.flex{
+        flex-direction: column;
+       
+    }
+
+    div.flex .familia{
+        width: 380px;
         
     }
   }
