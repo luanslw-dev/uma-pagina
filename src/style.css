@@ -15,13 +15,14 @@ button.bnt {
         position: fixed;
         top: 0;
         right: 0;
-        width:200px;
+        width:150px;
         padding: 15px 0;
         z-index: 1000; /* Para garantir que o menu fique acima do conteúdo */
         background-color: var(--cor5);
         padding: 10px;
         box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.233);
         margin-bottom: 10px;
+       
       
        
     
