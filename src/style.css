@@ -26,6 +26,8 @@ button.bnt a{
     text-decoration: none;
 }
 
+
+
 @keyframes flutuar{
     0%{
         top: 0;
@@ -86,6 +88,13 @@ div.container_inicio h3{
 
 div.container_inicio p{
     font-size: 1.2em;
+}
+
+div.container ul.atendimentos li{
+  
+   list-style: none;
+   
+   padding: 2px;
 }
 
 header {
