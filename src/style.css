@@ -281,6 +281,7 @@ div.contratar{
     margin-bottom: 20px;
     background-color: var(--cor5);
     color: #fff;
+    border-radius: 20px;
 }
 
 div.contratar >h1{
@@ -298,6 +299,7 @@ div.contratar >h1{
 }
 
 .quem-somos{
+    border-radius: 20px;
     padding: 40px;
     border: 2px solid rgba(0, 0, 0, 0.377);
     box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.377);
@@ -311,6 +313,7 @@ div.contratar >h1{
     text-align: justify;
 }
 .todo-conteudo{
+    border-radius: 20px;
     padding: 50px;
     border: 2px solid rgba(0, 0, 0, 0.377);
     box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.377);
@@ -326,6 +329,7 @@ div.contratar >h1{
     color: #fff;
 }
 div.container {
+    border-radius: 20px;
     display: flex;
     align-items: center;
  justify-content: space-between;
