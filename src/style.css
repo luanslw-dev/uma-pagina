@@ -258,8 +258,8 @@ footer a:hover{
         flex-direction: column;
        
     }
-    .lincecas{
-
+    .final  .lincecas{
+margin-top: -10px;
     }
 
     
@@ -354,7 +354,13 @@ padding: 20px;
 }
 .lincecas{
 
+margin-top: 220px;
+height: auto;
 }
 .lincecas > p{
 text-align: center;
+font-size: 15px;
+margin-bottom: 30px;
+line-height: 5px;
+margin-top: 20px;
 }
