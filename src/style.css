@@ -7,7 +7,7 @@ button.bnt {
         padding: 15px 0;
         background-color: var(--cor5);
         padding: 20px;
-        box-shadow:  10px  10px 5px 0px rgba(0, 0, 0, 0.507);
+        box-shadow:  5px  5px 5px 2px #fff;
        
     
 }
@@ -148,29 +148,13 @@ div.container-texto h2{
     border-bottom: 5px solid var(--cor0);
     font-size: 25px;
     font-weight: bold;
+    padding: 20px;
 }
 
-
-
-
-
-main h1 {
-    color: var(--cor5);
-   /* font-family: var(--fonte-android);*/
-}
-
-main h2 {
-   /* font-family: var(--fonte-android);*/
-   font-family: var(--fonte-destaque);
-    font-size: 1.3em;
-    text-indent: 8px;
-    color: var(--cor5);
-}
 
 main p {
     margin: 15px 0px;
     text-align: center;
-
 }
 
 
@@ -289,11 +273,12 @@ div.contratar{
     border: 2px solid rgba(0, 0, 0, 0.377);
     box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.377);
     margin-bottom: 20px;
-    background-color: var(--cor3);
+    background-color: var(--cor5);
+    color: #fff;
 }
 
 div.contratar >h1{
-    color: #04BFAD; 
+    color: #fff; 
     text-transform: capitalize;
     font-size: 40px;
     text-align: center;
@@ -303,7 +288,7 @@ div.contratar >h1{
     text-align: center;
     text-transform:capitalize;
     font-size: 40px;
-    color: #04BFAD; 
+    color: #fff; 
 }
 
 .quem-somos{
@@ -311,8 +296,10 @@ div.contratar >h1{
     border: 2px solid rgba(0, 0, 0, 0.377);
     box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.377);
     margin-bottom: 20px;
-    background-color: var(--cor3);
+    background-color: var(--cor5);
+    color: #fff;
 }
+
 
 .faleconosco > p{
     text-align: justify;
@@ -322,14 +309,15 @@ div.contratar >h1{
     border: 2px solid rgba(0, 0, 0, 0.377);
     box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.377);
     margin-bottom: 20px;
-    background-color: var(--cor3);
+    background-color: var(--cor5);
+    color: #fff;
 }
 .todo-conteudo > h1{
     text-align: center;
   
     text-transform:capitalize;
     font-size: 40px;
-    color: #04BFAD; 
+    color: #fff;
 }
 div.container {
     display: flex;
@@ -338,8 +326,9 @@ div.container {
 padding: 20px;
  border: 2px solid rgba(0, 0, 0, 0.377);
  box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.377);
- margin-bottom: 20px;
- background-color: var(--cor3);
+ margin-bottom: 20px; 
+ background-color: var(--cor5);
+ color: #fff;
     }
 
 
