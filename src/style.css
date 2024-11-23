@@ -180,7 +180,7 @@ footer {
     color: white;
   padding: 10px;
     font-size: 0.8em;
- height: 450px;
+ height: auto;
  font-size: 18px;
 
 }
@@ -260,6 +260,9 @@ footer a:hover{
     }
     .final  .lincecas{
 margin-top: -10px;
+    }
+    footer{
+        height: auto;
     }
 
     
@@ -354,7 +357,7 @@ padding: 20px;
 }
 .lincecas{
 
-margin-top: 220px;
+margin-top: 140px;
 height: auto;
 }
 .lincecas > p{
@@ -363,4 +366,8 @@ font-size: 15px;
 margin-bottom: 30px;
 line-height: 5px;
 margin-top: 20px;
+}
+
+.lincecas span i{
+    font-size: 30px;
 }
