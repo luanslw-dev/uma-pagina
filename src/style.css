@@ -166,8 +166,8 @@ footer.footer {
  height: auto;
  font-size: 18px;
  opacity: 0; /* Inicialmente invisível */
- transform: translateX(-100px); /* Começa fora da tela */
- transition: all 2.5s ease-in-out;
+ transform: translateX(100px); /* Começa fora da tela */
+ transition: all 1.5s ease-in-out;
 }
 
 footer.footer div.contatos{
@@ -287,7 +287,7 @@ div.contratar{
     border-radius: 20px;
     opacity: 0; /* Inicialmente invisível */
     transform: translateY(100px); /* Começa fora da tela */
-    transition: all 2.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 
 div.contratar >h1{
