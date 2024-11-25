@@ -166,7 +166,7 @@ footer.footer {
  height: auto;
  font-size: 18px;
  opacity: 0; /* Inicialmente invisível */
- transform: translateX(100px); /* Começa fora da tela */
+ transform: translateY(100px); /* Começa fora da tela */
  transition: all 1.5s ease-in-out;
 }
 
@@ -313,7 +313,7 @@ div.contratar >h1{
     background-color: var(--cor5);
     color: #fff;
     opacity: 0; /* Inicialmente invisível */
-    transform: translateX(100%); /* Começa fora da tela à direita */
+    transform: translateY(100%); /* Começa fora da tela à direita */
     transition: all 1.5s ease-in-out;
    
 }
