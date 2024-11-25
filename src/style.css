@@ -158,14 +158,16 @@ main p {
 
 
 
-footer {
+footer.footer {
     background-color: var(--cor5);
     color: white;
   padding: 10px;
     font-size: 0.8em;
  height: auto;
  font-size: 18px;
-
+ opacity: 0; /* Inicialmente invisível */
+ transform: translateY(100px); /* Começa fora da tela */
+ transition: all 2.5s ease-in-out;
 }
 
 footer div.contatos{
@@ -246,6 +248,7 @@ margin-top: -10px;
     }
     footer{
         height: auto;
+   
     }
     div.container{
         flex-direction: column;
@@ -282,6 +285,9 @@ div.contratar{
     background-color: var(--cor5);
     color: #fff;
     border-radius: 20px;
+    opacity: 0; /* Inicialmente invisível */
+    transform: translateY(100px); /* Começa fora da tela */
+    transition: all 2.5s ease-in-out;
 }
 
 div.contratar >h1{
@@ -320,6 +326,10 @@ div.contratar >h1{
     margin-bottom: 20px;
     background-color: var(--cor5);
     color: #fff;
+    opacity: 0; /* Inicialmente invisível */
+    transform: translateY(100px); /* Começa fora da tela */
+    transition: all 2.5s ease-in-out;
+  
 }
 .todo-conteudo > h1{
     text-align: center;
@@ -338,6 +348,9 @@ padding: 20px;
  margin-bottom: 20px; 
  background-color: var(--cor5);
  color: #fff;
+ opacity: 0; /* Inicialmente invisível */
+ transform: translateY(100px); /* Começa fora da tela */
+ transition: all 2.5s ease-in-out;
     }
 
 

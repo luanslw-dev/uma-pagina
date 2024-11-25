@@ -138,7 +138,7 @@
 
     </main>
     
-    <footer >    
+    <footer class="footer">    
         <div class="final">
       
          <div class="contatos">
@@ -162,6 +162,25 @@
     </div>
         <p id="footer"> <span>Carlos Luan </span> &copy; 2024</p>
     </footer>
+    <script>
+        // Função para verificar o scroll e animar as divs
+        window.onscroll = function() {
+            const divs = document.querySelectorAll('.todo-conteudo, .container, .contratar, .footer');
+    
+            // Checa cada div
+            divs.forEach(function(div) {
+                // Calcula a posição da div em relação à posição do scroll
+                const divPosition = div.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight;
+    
+                // Se a div estiver visível na tela, faz a animação
+                if (divPosition < screenPosition) {
+                    div.style.opacity = 1; // Torna visível
+                    div.style.transform = 'translateY(0)'; // Move a div para a posição normal
+                }
+            });
+        };
+    </script>
 </body>
 
 </html>
