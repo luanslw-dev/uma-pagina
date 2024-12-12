@@ -317,7 +317,39 @@ div.contratar >h1{
     transition: all 1.5s ease-in-out;
    
 }
+.container-fotos-servicos{
+    border-radius: 20px;
+    padding: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.377);
+    box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.377);
+    margin-bottom: 20px;
+    background-color: var(--cor5);
+ 
+}
+.container-fotos-servicos  h2{
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.fortos-servicos:hover{
+    transform: scale(1.05);
+box-shadow: 0 0 12px #ffffff3f;
 
+}
+
+.fortos-servicos{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+padding: 20px;
+    box-shadow: 2px 2px 3px 4px rgba(0, 0, 0, 0.589);
+  
+}
+
+.fortos-servicos img{
+    width: 300px;
+    height: 300px;
+}
 
 
 .faleconosco > p{
@@ -365,8 +397,7 @@ padding: 20px;
         font-size: 30px;
 
     }
-.contato{
-    
+
 }
 .final{
     display: flex;
